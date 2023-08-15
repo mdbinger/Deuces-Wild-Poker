@@ -1,7 +1,7 @@
 # Dueces-Wild-Poker
 A simulator of the Deuces Wild Poker casino game and odds predictor 
 
-/Users/michaelbinger/Downloads/IMG_6154.heic
+![Game Display](images/Game_screenshot.png "Actual Deuces Wild Game Display")
 
 ## Summary
 This code recreates the Video Poker game, Deuces Wild Poker, with the ability to project the odds of finishing with a winning hand based on your opening hand and all possible discard options. 
@@ -14,19 +14,19 @@ The code begins with creating a "card deck." The deck is actually a list of list
 
 Note: For the sake of calculating certain winning hands, "face" cards (Jack, Queen, King) and Aces were coded in as numbers. Jack is #11, Queen is #12, King is #13, and Ace is #14. 
 
-![Example First Dealt Hand](images/First_hand.png)
+![Example First Dealt Hand](images/First_hand.png "Example of a First Dealt Hand")
 
 After the deck is created, the program will randomly select 5 cards from the deck list, remove them from the deck list, and add the cards to a new list which will be the first dealt hand (shown in image above). Once your hand is created, the program will run all possible options you have to create a winning hand based on your first dealt hand and all possible final hands depending on which cards you choose to discard. It will display the best discard options in order to produce a winning hand in a pandas dataframe (shown below). 
 
-[insert photo of odds dataframe]
+![Example Odds Dataframe](images/Odds_dataframe.png "Example of the Projected Odds Dataframe")
 
 You will then be prompted to choose which cards from your first dealt hand you would like to discard. You can choose no cards, or any combination of the cards in your first hand. Discarded cards are identified by their position in the hand. In order to discard a card, you enter in the position number associated with the card. The program will display the cards next to their associated position number. 
 
-[insert photo of hand with position numbers]
+![Example Hand with Position Numbers](images/Card_hand.png "Example of Hand Displayed with Position Numbers")
 
 After choosing your discard options, the program will pull the appropriate number of cards at random from the remaining cards in the deck to ensure your final hand has 5 cards. Once your final hand is assigned, the program will determine if your final hand is a winning hand. The final output will display your original hand, the cards you discarded, your final hand, and the result of your final hand. 
 
-[insert photo of final output]
+![Example Final Output](images/Final_output.png "Example of the Program's Final Output")
 
 To play a new hand, simply restart the program.
 
