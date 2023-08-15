@@ -1,4 +1,4 @@
-# Dueces-Wild-Poker
+# Deuces-Wild-Poker
 A simulator of the Deuces Wild Poker casino game and odds predictor 
 
 ![Game Display](images/Game_screenshot.png "Actual Deuces Wild Game Display")
