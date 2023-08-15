@@ -1,7 +1,7 @@
 # Dueces-Wild-Poker
 A simulator of the Deuces Wild Poker casino game and odds predictor 
 
-[/Users/michaelbinger/Downloads/IMG_6154.heic]
+/Users/michaelbinger/Downloads/IMG_6154.heic
 
 ## Summary
 This code recreates the Video Poker game, Deuces Wild Poker, with the ability to project the odds of finishing with a winning hand based on your opening hand and all possible discard options. 
