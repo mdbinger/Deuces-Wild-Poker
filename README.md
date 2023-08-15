@@ -14,7 +14,7 @@ The code begins with creating a "card deck." The deck is actually a list of list
 
 Note: For the sake of calculating certain winning hands, "face" cards (Jack, Queen, King) and Aces were coded in as numbers. Jack is #11, Queen is #12, King is #13, and Ace is #14. 
 
-/Users/michaelbinger/Desktop/First_hand.png
+![Example First Dealt Hand](/Users/michaelbinger/Desktop/First_hand.png)
 
 After the deck is created, the program will randomly select 5 cards from the deck list, remove them from the deck list, and add the cards to a new list which will be the first dealt hand (shown in image above). Once your hand is created, the program will run all possible options you have to create a winning hand based on your first dealt hand and all possible final hands depending on which cards you choose to discard. It will display the best discard options in order to produce a winning hand in a pandas dataframe (shown below). 
 
