@@ -35,8 +35,6 @@ The winning odds are displayed by filtering an imported CSV which has been conve
 
 ![Odds Dataframe Code](images/Odds_dataframe_code.png "Code that Created the Odds Dataframe")
 
-As of now (8/14/23) Aces are only represented as #14. Therefore, this code will not recognize a straight with Ace represented as a #1. This will be the next part of the project I complete.
-
 At some point, I would like to create two additional components to this program. I would like to update the program to incorporate a betting feature. This would include an option at the beginning of the program asking how much "money" you would like to play with. Once the program begins, before each initial hand you would be asked a wager amount and the program would calculate your losses/winnings depending on the outcome of the hand, and add or subtract that amount from the original amount you decided to play with. 
 
 Additionally, I would like to loop the program so that it continues to play, and continues to choose the discard option with the highest percentage of winning until either the starting "money" is doubled or has run out. 
